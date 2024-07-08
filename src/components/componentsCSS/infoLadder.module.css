@@ -1,0 +1,110 @@
+/*----------------------------- General CSS ------------------------------------*/
+.body {
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.section  {
+    height: 100vh;
+    text-align: center;
+
+}
+
+.sectionBody {
+    background-color: rgba(38, 38, 38, 0.75);
+    margin: 10%;
+    border-radius: 20px;
+    padding: 30px;
+    height: 67%;
+    overflow-y: auto;
+}
+
+.title {
+    font-size: 6vh;
+    font-weight: bolder;
+    display: flex;
+    justify-content: left;
+}
+
+.line {
+    margin-top: 10px;
+    border-radius: 20px;
+    min-width: 80%;
+    height: 8px;
+    background-color: #5E17EB;
+}
+
+/*----------------------------- Developer Skillset CSS ------------------------------------*/
+.lineHalf1 {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 25%;
+    height: 8px;
+    background-color: #5E17EB;
+}
+
+.lineHalf2 {
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 45%;
+    height: 8px;
+    background-color: #5E17EB;
+}
+
+.subTitle {
+    display: flex;
+    justify-content: left;
+    font-size: 2.5vh;
+}
+
+.bio {
+    padding: 5%;
+    font-size: 2.5vh;
+    text-align: start;
+    display: flex;
+    justify-content: left;
+    padding-left: 0px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.badge{
+    background-color: #5E17EB;
+    border-radius: 30px;
+    padding: 8px; 
+    margin: 10px;
+}
+
+/*----------------------------- First Contact CSS ------------------------------------*/
+.logo{
+    background-color: #5E17EB;
+    border-radius: 30px;
+    padding: 10px; 
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list {
+    padding: 5%;
+    font-size: 3vh;
+}
+
+a.link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover {
+    color: rgba(94, 23, 235, 1);
+  }

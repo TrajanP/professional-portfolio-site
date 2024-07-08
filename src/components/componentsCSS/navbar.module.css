@@ -1,0 +1,36 @@
+
+.navBody {
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    font-size: 300%;
+    padding-top: 30px;
+    margin-left: 15%;
+}
+
+.navBodyLeft {
+    width: 50%;
+    display: flex;
+}
+
+.navBodyRight {
+    width: 50%;
+}
+
+.link { 
+    padding: 10px;
+    color: white;
+    font-size: xx-large;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #5E17EB;
+    text-decoration: none;
+}

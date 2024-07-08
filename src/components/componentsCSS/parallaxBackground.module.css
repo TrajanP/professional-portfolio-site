@@ -1,0 +1,41 @@
+.body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* The non moving bottom purple gradient */
+.borderBG {
+    z-index: 5;
+    position: absolute;
+    aspect-ratio: 1920/1080;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: calc(100vh - 120px);
+    background-image: url('../../media/Border.png');
+    overflow: hidden;
+}
+
+/* Used in homepage */
+.planetsBG {
+    z-index: 0;
+    position: absolute;
+    aspect-ratio: 1920/3240;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../media/PortfolioBG.png');
+    overflow: hidden;
+}
+
+/* Used in projects page */
+.starsBG {
+    z-index: 0;
+    position: absolute;
+    aspect-ratio: 1920/3240;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../media/ProjectBG.png');
+    overflow: hidden;
+}
