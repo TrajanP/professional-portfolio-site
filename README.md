@@ -16,3 +16,7 @@
 > Providing an SSL/TLS certificate through DNS validation.
 ### Amazon Cloud Front 
 > Delivering my portfolio through a CDN to lower request time, provide built in AWS security and restrict access to the S3 bucket. 
+  
+  
+## Note - Mobile Platforms
+> Currently the website is not built to be responsive with mobile viewing.
