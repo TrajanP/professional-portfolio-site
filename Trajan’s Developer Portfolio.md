@@ -1,7 +1,7 @@
 # Trajan’s Developer Portfolio
 - - -
 ### A visual resource to display me as a Developer. Come see what I’m working on and why I love code. 
-### Find the site [Here](trajan-portfolio.com).
+### Find the site [Here](https://trajan-portfolio.com).
 ## The Stack
 - - -
 ### Amazon S3 Bucket
