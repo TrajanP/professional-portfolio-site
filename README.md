@@ -4,6 +4,9 @@
 ### Find the site [Here](https://trajan-portfolio.com).
 ## The Stack
 - - -
+### React Library
+> Frontend JavaScript library used to develop this project. 
+> 
 ### Amazon S3 Bucket
 > Using Object Storage to store media and source files. Established with bucket policy for Cloud Front read access only.
 > 
