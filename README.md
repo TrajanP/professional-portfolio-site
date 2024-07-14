@@ -1,6 +1,6 @@
 # Trajan’s Developer Portfolio
 - - -
-### A visual resource to display me as a Developer. Come see what I’m working on and why I love code. 
+### A visual resource to display myself as a Developer. Come see what I’m working on and why I love code. 
 ### Find the site [Here](https://trajan-portfolio.com).
 ## The Stack
 - - -
