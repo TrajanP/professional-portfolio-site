@@ -29,8 +29,8 @@ export const HomePage = () => {
                 </div>
                 <div className={css.bio}>
                     <p>
-                        Software Developer in Nashville who enjoys coding with React Framework. 
-                        Likes to stay flexible with working on both backend and frontend code.
+                        Software Developer in Nashville who enjoys coding with the React Framework. 
+                        Likes to stay flexible by working on both backend and frontend code.
                     </p>
                 </div>
             </div>

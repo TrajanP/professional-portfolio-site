@@ -26,8 +26,8 @@ export const InfoLadder = ({handleChange}) => {
                     <span className={css.title}> Developer Skillset </span>
                     <div className={css.line}/>
                     <p className={css.bio}>
-                        Software Developer in Nashville who enjoys coding with React Framework. 
-                        Likes to stay flexible with working on both backend and frontend code.
+                        Software Developer in Nashville who enjoys coding with the React Framework. 
+                        Likes to stay flexible by working on both backend and frontend code.
                     </p>
                     <span className={css.subTitle}> Languages </span>
                     <div className={css.lineHalf1}/>
@@ -55,7 +55,7 @@ export const InfoLadder = ({handleChange}) => {
                     <span className={css.title}> Experience </span>
                     <div className={css.line}/>
                     <p className={css.bio}>
-                        I'm a Junior Developer eager to sharpen my Coding abilities in a professional environment. 
+                        I'm a Junior Developer eager to sharpen my coding abilities in a professional environment. 
                         Experience with both solo and team based development efforts to provide a needed product. 
                     </p>
                     <span className={css.subTitle}> Education </span> 

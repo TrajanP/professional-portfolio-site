@@ -41,10 +41,10 @@ export const ProjectsPage = () => {
                 </div>
                 <div className={css.rightBody}>
                     <div className={css.imgContainer}>
-                        <img style={{scale:"1.5", borderRadius:"10px", objectFit:"fit"}} src={Project1}/>
+                        <img alt="Image for Ready Set Trave Project Site" style={{scale:"1.5", borderRadius:"10px", objectFit:"fit"}} src={Project1}/>
                     </div>
                     <div className={css.footer}>
-                        <a className={css.link} href="url">Github <FaGithubSquare/> </a> 
+                        <a className={css.link} href="https://github.com/TrajanP/ready-set-travel" target="_blank">Github <FaGithubSquare/> </a> 
                     </div>
                 </div>
             </section>
