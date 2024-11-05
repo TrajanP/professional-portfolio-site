@@ -18,4 +18,4 @@
   
   
 ## Note - Mobile Platforms
-> Currently the website is not built to be responsive with mobile viewing.
+> The website is built to be responsive with both mobile and desktop viewing.
