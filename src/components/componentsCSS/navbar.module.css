@@ -1,4 +1,4 @@
-
+/* -------------------------Screens larger than 950px----------------------- */
 .navBody {
     background-color: transparent;
     display: flex;
@@ -15,12 +15,14 @@
 }
 
 .navBodyLeft {
-    width: 50%;
+    width: 40%;
     display: flex;
+    align-items: center;
 }
 
 .navBodyRight {
     width: 50%;
+    display: flex;
 }
 
 .link { 
@@ -33,4 +35,56 @@
 .link:hover {
     color: #5E17EB;
     text-decoration: none;
+}
+
+.dot {
+    background-color: #5E17EB;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 10%;
+}
+
+.logo {
+    max-width: 5rem;
+    height: 5rem;
+    margin-top: 0rem;
+}
+
+
+/* -------------------------Screens smaller than 950px----------------------- */
+@media screen and (max-width: 950px)
+{
+    .navBody {
+        background-color: transparent;
+        display: flex;
+        width: 100%;
+        color: white;
+        justify-content: space-between;
+        padding: 0rem;
+        position: fixed;
+        top: 0;
+        z-index: 100;
+        font-size: 1.5rem;
+        padding-top: 1.5rem;
+        margin-left: 2rem;
+    }
+
+    .link { 
+        padding: .5rem;
+        color: white;
+        font-size: 1.5rem;
+        text-decoration: none;
+        padding-left: .5;
+    }
+
+    .navBodyRight {
+        width: 60%;
+        display: block;
+    }
+
+    .logo {
+        max-width: 2.5rem;
+        height: 2.5rem;
+        margin-top: 0rem;
+    }
 }

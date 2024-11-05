@@ -61,11 +61,11 @@ export const InfoLadder = ({handleChange}) => {
                     <span className={css.subTitle}> Education </span> 
                     <div className={css.lineHalf1}/>
                     <span style={{display:"flex", justifyContent:"left", margin:"10px", marginLeft:"0px",fontSize:"2vh" }}> Lipscomb University (2019 - 2023) </span>
-                    <span style={{backgroundColor:"#5E17EB", marginLeft:"0px", display:"flex", justifyContent:"left", padding:"5px", maxWidth:"353px", marginBottom:"5px"}}> - Bachelors of Science in Software Engineering </span>
+                    <span className={css.roleBox}> - Bachelors of Science in Software Engineering </span>
                     <span className={css.subTitle}> Current Employment </span> 
                     <div className={css.lineHalf2}/>
                     <span style={{display:"flex", justifyContent:"left", margin:"10px", marginLeft:"0px",fontSize:"2vh" }}> HCA Healthcare (2023 - 2024) </span>
-                    <span style={{backgroundColor:"#5E17EB", marginLeft:"0px", display:"flex", justifyContent:"left", padding:"5px", maxWidth:"145px", marginBottom:"5px"}}> - Technical Analyst </span>
+                    <span className={css.roleBox}> - Technical Analyst </span>
                 </div>
             </section>
             <section className={css.section} id="contactID">
@@ -77,9 +77,9 @@ export const InfoLadder = ({handleChange}) => {
                         Reach out to me at my below links or take a peak at what else I'm working on!
                     </p>
                     <div className={css.list}>
-                        <div style={{display:"flex", flexWrap:"wrap"}}><span className={css.logo} > <span style={{marginRight:"10px"}}> Github </span> <FaGithubSquare /></span> <a className={css.link} href="https://github.com/TrajanP" target="_blank"> - What I'm working on. </a> </div>
-                        <div style={{display:"flex", flexWrap:"wrap"}}><span className={css.logo} > <span style={{marginRight:"10px"}}> LinkedIn </span> <FaLinkedin /></span> <a className={css.link} href="http://www.linkedin.com/in/trajan-parkes" target="_blank"> - Connect with me. </a> </div>
-                        <div style={{display:"flex", flexWrap:"wrap"}}><span className={css.logo} > <span style={{marginRight:"10px"}}> My Resume </span> <FaPaperPlane /></span> <a className={css.link} href="https://docs.google.com/document/d/1lOMhonQRY0ex75OCdpBR9u8ebpwN86YEBgN1iO0kAEk/edit?usp=sharing" target="_blank"> - More about me. </a> </div>
+                        <div style={{display:"flex", flexWrap:"wrap"}}><span className={css.logo} > <span style={{marginRight:".5rem"}}> Github </span> <FaGithubSquare /></span> <a className={css.link} href="https://github.com/TrajanP" target="_blank"> - What I'm working on. </a> </div>
+                        <div style={{display:"flex", flexWrap:"wrap"}}><span className={css.logo} > <span style={{marginRight:".5rem"}}> LinkedIn </span> <FaLinkedin /></span> <a className={css.link} href="http://www.linkedin.com/in/trajan-parkes" target="_blank"> - Connect with me. </a> </div>
+                        <div style={{display:"flex", flexWrap:"wrap"}}><span className={css.logo} > <span style={{marginRight:".5rem"}}> Resume </span> <FaPaperPlane /></span> <a className={css.link} href="https://docs.google.com/document/d/1lOMhonQRY0ex75OCdpBR9u8ebpwN86YEBgN1iO0kAEk/edit?usp=sharing" target="_blank"> - More about me. </a> </div>
                     </div>
                 </div>
             </section>
