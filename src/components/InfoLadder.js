@@ -68,7 +68,7 @@ export const InfoLadder = ({handleChange}) => {
                     <span className={css.roleBox}> - Technical Analyst </span>
                 </div>
             </section>
-            <section className={css.section} id="contactID">
+            <section className={css.section} id="contactID" style={{marginBottom:"5rem"}}>
             <div className={css.sectionBody}>
                     <span className={css.title}> First Contact </span>
                     <div className={css.line}/>
